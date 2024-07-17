@@ -8,7 +8,7 @@ const AppFilter = (props) => {
         },
         {
             name: 'rise',
-            label: 'For a salary rise'
+            label: 'For a promotion'
         },
         {
             name: 'moreThan1000',
