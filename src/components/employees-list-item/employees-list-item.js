@@ -1,10 +1,7 @@
 import {Component} from "react";
-import './employees-list-item.css';
+import './employees-list-item.scss';
 
 class EmployeesListItem  extends Component {
-    constructor(props) {
-        super(props);
-    }
     render() {
         const {name, salary, onDelete, onToggleProp, onChangeSalary, increase, rise} = this.props;
         let classNames = "list-group-item d-flex justify-content-between";
@@ -21,7 +18,8 @@ class EmployeesListItem  extends Component {
             <span
                 className="list-group-item-label"
                 onClick={onToggleProp}
-                data-toggle="rise">
+                data-toggle="rise"
+                style={{fontSize: 32, color: "#333333"}}>
                 {name}
             </span>
 

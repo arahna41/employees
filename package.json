@@ -10,6 +10,7 @@
     "react-dom": "^18.2.0",
     "react-id-generator": "^3.0.2",
     "react-scripts": "^5.0.1",
+    "sass": "^1.77.8",
     "web-vitals": "^3.3.2"
   },
   "scripts": {
@@ -35,5 +36,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-private-property-in-object": "^7.24.7"
   }
 }

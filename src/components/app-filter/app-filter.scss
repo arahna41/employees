@@ -1,0 +1,8 @@
+.btn-group {
+  margin-top: 20px;
+
+  @media screen and (max-width: 450px) {
+    flex-direction: column;
+    width: 100%;
+  }
+}

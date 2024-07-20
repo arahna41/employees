@@ -7,7 +7,7 @@ import AppFilter from '../app-filter/app-filter';
 import EmployeesList from '../employees-list/employees-list';
 import EmployeesAddForm from '../employees-add-form/employees-add-form';
 
-import './app.css';
+import './app.scss';
 
 class App extends Component {
     constructor(props) {
@@ -69,7 +69,7 @@ class App extends Component {
         this.setState(({data}) => ({
             data: data.map(item => {
                 if (item.id === id) {
-                    return {...item, ['salary']: updatedSalary}
+                    return {...item, 'salary': updatedSalary}
                 }
                 return item;
             })
